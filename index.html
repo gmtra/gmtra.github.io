@@ -1,53 +1,52 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Gaurav Mitra</title>
-<meta name="description" content="">
-<meta name="viewport" content="width=device-width">
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <title>Gaurav Mitra</title>
 
-<style>
-body {
-    padding-top: 60px;
-    padding-bottom: 40px;
-}
-</style>
+        <style>
+        body {
+            padding-top: 60px;
+            padding-bottom: 40px;
+        }
+        </style>
+        
+        <!-- Bootstrap core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+          
+        <!-- Custom styles for this template -->
+        <link href="css/jumbotron.css" rel="stylesheet">
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-39024881-2"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+        
+          gtag('config', 'UA-39024881-2');
+        </script>
+        
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script type="text/javascript">
+        
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-39024881-1']);
+        _gaq.push(['_trackPageview']);
+        
+        (function() {
+         var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+         })();
+        
+        </script>
+    </head>
 
-<!-- Bootstrap core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-  
-<!-- Custom styles for this template -->
-<link href="css/jumbotron.css" rel="stylesheet">
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-39024881-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-39024881-2');
-</script>
-
-<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-<script type="text/javascript">
-
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', 'UA-39024881-1']);
-_gaq.push(['_trackPageview']);
-
-(function() {
- var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
- ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
- var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
- })();
-
-</script>
-</head>
 <body>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
       <!--<a class="navbar-brand" href="#">Navbar</a>-->
@@ -82,23 +81,9 @@ _gaq.push(['_trackPageview']);
       </div>
     </nav>
 
+    <main role="main">
 
-<div class="container">
-
-    <!-- Main hero unit for a primary marketing message or call to action -->
-    <!--<div class="hero-unit">-->
-        <!--<div class="dropshadowclass">-->
-            <!--<img src="img/gaurav.jpg" style="float: right;" alt="" width="380" >-->
-        <!--</div>     -->
-        <!--<h1 align="left">Dr. Gaurav Mitra</h1>-->
-        <!--<p align="left"><br>Software Engineer, Texas Instruments Inc.<br> -->
-        <!--PhD, Australian National University<br>       -->
-        <!--BSEng (Hons.), BSc, Australian National University<br>       -->
-        <!--<h4> <a href="doc/Resume_Gaurav_Mitra_0218.pdf">Resume</a> </h4>-->
-        <!--<p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>-->
-    <!--</div>-->
-
-    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <!-- Main jumbotron -->
       <div class="jumbotron">
         <div class="dropshadowclass">
             <img src="img/gaurav.jpg" style="float: right;" alt="" width="380" >
@@ -110,7 +95,8 @@ _gaq.push(['_trackPageview']);
         <h4> <a href="doc/Resume_Gaurav_Mitra_0218.pdf">Resume</a> </h4>
       </div>
 
-    <!-- Example row of columns -->
+    <div class="container">
+    <!-- Row of columns -->
     <div class="row">
         <div class="span4">
             <h3> Education </h3>
@@ -279,15 +265,18 @@ _gaq.push(['_trackPageview']);
                 </div> 
                 <hr>
 
-                <footer>
-                    <p> Contact: <a
-                        href="mailto:gaurav@ti.com">gaurav@ti.com</a></p>
-                    <p> Last Updated: Feb 12, 2018</p>
-                    <p>&copy; Gaurav Mitra 2018</p>
-                </footer>
+        </div> <!-- /container -->
+    </main>
 
-            </div> <!-- /container -->
+    <footer class="container">
+        <p> Contact: <a href="mailto:gaurav@ti.com">gaurav@ti.com</a></p>
+        <p> Last Updated: May 29, 2018</p>
+        <p>&copy; Gaurav Mitra 2018</p>
+    </footer>
 
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
     <script src="assets/js/vendor/popper.min.js"></script>
