@@ -10,15 +10,18 @@
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width">
 
-<link rel="stylesheet" href="css/bootstrap.css">
 <style>
 body {
     padding-top: 60px;
     padding-bottom: 40px;
 }
 </style>
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<!--<link rel="stylesheet" href="css/main.css">-->
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+  
+<!-- Custom styles for this template -->
+<link href="css/jumbotron.css" rel="stylesheet">
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-39024881-2"></script>
@@ -46,24 +49,39 @@ _gaq.push(['_trackPageview']);
 </script>
 </head>
 <body>
-<!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
-<div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-        <div class="container">
-            <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </a>
-            <!--<a class="brand" href="#">Gaurav Mitra</a>-->
-            <div class="nav-collapse collapse">
-                <ul class="nav">
-                    <li class="active"><a href="#">Home</a></li>
-                </ul>
-            </div><!--/.nav-collapse -->
-        </div>
-    </div>
-</div>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <!--<a class="navbar-brand" href="#">Navbar</a>-->
+      <!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">-->
+        <!--<span class="navbar-toggler-icon"></span>-->
+      <!--</button>-->
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <!--<li class="nav-item">-->
+            <!--<a class="nav-link" href="#">Link</a>-->
+          <!--</li>-->
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Blog</a>
+          </li>
+          <!--<li class="nav-item dropdown">-->
+            <!--<a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>-->
+            <!--<div class="dropdown-menu" aria-labelledby="dropdown01">-->
+              <!--<a class="dropdown-item" href="#">Action</a>-->
+              <!--<a class="dropdown-item" href="#">Another action</a>-->
+              <!--<a class="dropdown-item" href="#">Something else here</a>-->
+            <!--</div>-->
+          <!--</li>-->
+        </ul>
+        <!--<form class="form-inline my-2 my-lg-0">-->
+          <!--<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">-->
+          <!--<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>-->
+        <!--</form>-->
+      </div>
+    </nav>
+
 
 <div class="container">
 
@@ -258,14 +276,11 @@ _gaq.push(['_trackPageview']);
 
             </div> <!-- /container -->
 
-            <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>-->
-            <!--<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>-->
-            <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-            <script src="js/bootstrap.min.js"></script>
-            <!--<script src="js/plugins.js"></script>-->
-            <!--<script src="js/main.js"></script>-->
-            <!--<script src="js/jquery.details.js"></script>-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+    <script src="assets/js/vendor/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
             <script>
 window.console || (window.console = { 'log': alert });
 $(function() {
@@ -291,5 +306,5 @@ $(function() {
         });
             </script>
 
-            </body>
-            </html>
+    </body>
+</html>
